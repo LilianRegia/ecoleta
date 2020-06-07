@@ -1,0 +1,40 @@
+:root {
+    --title-color: #322153;
+    --primary-color: #34cb79;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Border-box faz com que a caixa fique sempre
+com o tamanho da caixa que você definir.
+Não importa o padding que colocar, ele não vai aumentar. */
+
+html {
+    font-family: Roboto, sans-serif;
+}
+body {
+    background: #f0f0f5;  
+    -webkit-font-smoothing: antialiased;  
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Ubuntu, sans-serif;
+    color: var(--title-color);
+}
+/* Box model
+
+Modelo de caixa:
+Toda caixa tem largura, altura, preenchimento e espaçamentos,
+cor, fundo, bordas, alinhamento, posicionamento.
+E a maneira que é vista pelo HMTL(display)
+*/
+
+
+
